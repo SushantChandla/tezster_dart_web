@@ -35,8 +35,18 @@ Check out the [example](https://github.com/Tezsure/tezster_dart/tree/master/exam
 ### Import using
 
 ``` dart
-import 'package:tezster_dart/tezster_dart.dart';
+import 'package:tezster_dart_web/tezster_dart.dart';
 ```
+
+### web setup
+
+Download the sodium.js file from [https://raw.githubusercontent.com/jedisct1/libsodium.js/master/dist/browsers-sumo/sodium.js](https://raw.githubusercontent.com/jedisct1/libsodium.js/master/dist/browsers-sumo/sodium.js)
+
+and add it to you flutter web directory. Then in your web/index.html add  
+```html
+<script src="sodium.js"></script>
+```
+
 
 ### Usage
 
