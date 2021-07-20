@@ -1,4 +1,4 @@
-import 'package:tezster_dart/helper/http_helper.dart';
+import 'package:tezster_dart_web/helper/http_helper.dart';
 
 class TezosNodeReader {
   static Future<int> getCounterForAccount(String server, String publicKeyHash,

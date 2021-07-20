@@ -1,4 +1,4 @@
-import 'package:tezster_dart/michelson_parser/grammar/michelin_grammar_tokenizer.dart';
+import 'package:tezster_dart_web/michelson_parser/grammar/michelin_grammar_tokenizer.dart';
 
 class MichelineGrammar {
   MichelinGrammarTokenizer lexer;

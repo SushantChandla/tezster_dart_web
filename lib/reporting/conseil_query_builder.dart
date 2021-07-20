@@ -1,4 +1,4 @@
-import 'package:tezster_dart/types/tezos/query_types.dart';
+import 'package:tezster_dart_web/types/tezos/query_types.dart';
 
 class ConseilQueryBuilder {
   static blankQuery() {

@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:tezster_dart/utils/sodium_utils.dart';
+import 'package:tezster_dart_web/utils/sodium_utils.dart';
 
 class CryptoUtils {
   static Uint8List generateSaltForPwHash() {

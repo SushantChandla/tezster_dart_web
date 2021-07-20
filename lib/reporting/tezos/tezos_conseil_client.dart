@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:tezster_dart/reporting/conseil_data_client.dart';
-import 'package:tezster_dart/reporting/conseil_query_builder.dart';
-import 'package:tezster_dart/types/tezos/query_types.dart';
+import 'package:tezster_dart_web/reporting/conseil_data_client.dart';
+import 'package:tezster_dart_web/reporting/conseil_query_builder.dart';
+import 'package:tezster_dart_web/types/tezos/query_types.dart';
 
 var bLOCKS = 'blocks';
 var oPERATIONS = 'operations';

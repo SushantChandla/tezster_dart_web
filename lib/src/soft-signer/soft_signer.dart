@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
-import 'package:tezster_dart/chain/tezos/tezos_message_utils.dart';
-import 'package:tezster_dart/helper/password_generater.dart';
-import 'package:tezster_dart/utils/crypto_utils.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_message_utils.dart';
+import 'package:tezster_dart_web/helper/password_generater.dart';
+import 'package:tezster_dart_web/utils/crypto_utils.dart';
 
 enum SignerCurve { ED25519, SECP256K1, SECP256R1 }
 

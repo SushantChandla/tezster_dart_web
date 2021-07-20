@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tezster_dart/tezster_dart.dart';
+import 'package:tezster_dart_web/tezster_dart.dart';
 
 void main() {
   String testPrivateKey =

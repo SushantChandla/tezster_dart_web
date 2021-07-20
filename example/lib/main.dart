@@ -5,9 +5,9 @@
 // NOTE: please get the tezster_dart package under pubspec.yaml before running the project
 
 import 'package:flutter/material.dart';
-import 'package:tezster_dart/tezster_dart.dart';
+import 'package:tezster_dart_web/tezster_dart.dart';
 
-void main() {
+void main(){
   runApp(MyApp());
 }
 

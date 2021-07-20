@@ -1,9 +1,8 @@
-library tezster_dart;
+library tezster_dart_web;
 
 import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
-import 'dart:core';
 import 'package:convert/convert.dart';
 import 'package:blake2b/blake2b_hash.dart';
 import 'package:crypto/crypto.dart';
@@ -11,20 +10,19 @@ import 'package:ed25519_hd_key/ed25519_hd_key.dart';
 import 'package:password_hash/password_hash.dart';
 import 'package:bip39/bip39.dart' as bip39;
 import 'package:bs58check/bs58check.dart' as bs58check;
-import 'package:tezster_dart/chain/tezos/tezos_message_utils.dart';
-import 'package:tezster_dart/chain/tezos/tezos_node_reader.dart';
-import 'package:tezster_dart/chain/tezos/tezos_node_writer.dart';
-import 'package:tezster_dart/helper/constants.dart';
-import 'package:tezster_dart/helper/http_helper.dart';
-import 'package:tezster_dart/reporting/tezos/tezos_conseil_client.dart';
-import 'package:tezster_dart/src/soft-signer/soft_signer.dart';
-import 'package:tezster_dart/tezster_dart.dart';
-import 'package:tezster_dart/types/tezos/tezos_chain_types.dart';
-import 'package:tezster_dart/utils/sodium_utils.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_message_utils.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_node_reader.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_node_writer.dart';
+import 'package:tezster_dart_web/helper/constants.dart';
+import 'package:tezster_dart_web/helper/http_helper.dart';
+import 'package:tezster_dart_web/reporting/tezos/tezos_conseil_client.dart';
+import 'package:tezster_dart_web/src/soft-signer/soft_signer.dart';
+import 'package:tezster_dart_web/tezster_dart.dart';
+import 'package:tezster_dart_web/types/tezos/tezos_chain_types.dart';
+import 'package:tezster_dart_web/utils/sodium_utils.dart';
 import "package:unorm_dart/unorm_dart.dart" as unorm;
-import 'package:flutter_sodium/flutter_sodium.dart';
-
-import 'package:tezster_dart/helper/generateKeys.dart';
+import 'package:sodium_web/sodium_web.dart';
+import 'package:tezster_dart_web/helper/generateKeys.dart';
 
 class TezsterDart {
   static String generateMnemonic({int strength = 256}) {

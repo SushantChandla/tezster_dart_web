@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:tezster_dart/chain/tezos/tezos_language_util.dart';
-import 'package:tezster_dart/chain/tezos/tezos_message_utils.dart';
-import 'package:tezster_dart/models/operation_model.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_language_util.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_message_utils.dart';
+import 'package:tezster_dart_web/models/operation_model.dart';
 
 class TezosMessageCodec {
   static String encodeOperation(OperationModel message) {

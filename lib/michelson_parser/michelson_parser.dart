@@ -1,6 +1,6 @@
-import 'package:tezster_dart/michelson_parser/parser/micheline_grammar.dart';
-import 'package:tezster_dart/michelson_parser/parser/michelson_grammar.dart';
-import 'package:tezster_dart/michelson_parser/parser/nearley.dart';
+import 'package:tezster_dart_web/michelson_parser/parser/micheline_grammar.dart';
+import 'package:tezster_dart_web/michelson_parser/parser/michelson_grammar.dart';
+import 'package:tezster_dart_web/michelson_parser/parser/nearley.dart';
 
 class MichelsonParser {
   static String parseMichelson(String code) {

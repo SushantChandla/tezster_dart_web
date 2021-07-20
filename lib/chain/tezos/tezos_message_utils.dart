@@ -3,10 +3,10 @@ import 'dart:typed_data';
 import 'package:blake2b/blake2b_hash.dart';
 import 'package:bs58check/bs58check.dart' as bs58check;
 import 'package:convert/convert.dart';
-import 'package:tezster_dart/chain/tezos/tezos_language_util.dart';
-import 'package:tezster_dart/helper/generateKeys.dart';
-import 'package:tezster_dart/src/soft-signer/soft_signer.dart';
-import 'package:tezster_dart/types/tezos/tezos_chain_types.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_language_util.dart';
+import 'package:tezster_dart_web/helper/generateKeys.dart';
+import 'package:tezster_dart_web/src/soft-signer/soft_signer.dart';
+import 'package:tezster_dart_web/types/tezos/tezos_chain_types.dart';
 
 class TezosMessageUtils {
   static String writeBranch(String branch) {

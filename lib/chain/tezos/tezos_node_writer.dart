@@ -2,17 +2,17 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:convert/convert.dart';
-import 'package:tezster_dart/chain/tezos/tezos_language_util.dart';
-import 'package:tezster_dart/chain/tezos/tezos_message_codec.dart';
-import 'package:tezster_dart/chain/tezos/tezos_message_utils.dart';
-import 'package:tezster_dart/chain/tezos/tezos_node_reader.dart';
-import 'package:tezster_dart/helper/constants.dart';
-import 'package:tezster_dart/helper/http_helper.dart';
-import 'package:tezster_dart/models/key_store_model.dart';
-import 'package:tezster_dart/models/operation_model.dart';
-import 'package:tezster_dart/src/soft-signer/soft_signer.dart';
-import 'package:tezster_dart/types/tezos/tezos_chain_types.dart';
-import 'package:tezster_dart/utils/gas_fee_calculator.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_language_util.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_message_codec.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_message_utils.dart';
+import 'package:tezster_dart_web/chain/tezos/tezos_node_reader.dart';
+import 'package:tezster_dart_web/helper/constants.dart';
+import 'package:tezster_dart_web/helper/http_helper.dart';
+import 'package:tezster_dart_web/models/key_store_model.dart';
+import 'package:tezster_dart_web/models/operation_model.dart';
+import 'package:tezster_dart_web/src/soft-signer/soft_signer.dart';
+import 'package:tezster_dart_web/types/tezos/tezos_chain_types.dart';
+import 'package:tezster_dart_web/utils/gas_fee_calculator.dart';
 
 class TezosNodeWriter {
   static Future<Map<String, Object>> sendTransactionOperation(String server,

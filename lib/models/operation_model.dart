@@ -1,4 +1,4 @@
-import 'package:tezster_dart/helper/constants.dart';
+import 'package:tezster_dart_web/helper/constants.dart';
 
 class OperationModel {
   String destination;
