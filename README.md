@@ -2,6 +2,9 @@
 
 This gives web support to [tezster_dart_web](https://github.com/Tezsure/tezster_dart).
 
+Check out example:
+[WallyXTZ](https://github.com/SushantChandla/WallyXTZ/tree/web)
+
 [![Star on GitHub](https://img.shields.io/github/stars/Tezsure/tezster_dart?style=flat&logo=github&colorB=green&label=stars)](https://github.com/Tezsure/tezster_dart)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Github issues](https://img.shields.io/github/issues/Tezsure/tezster_dart)](https://github.com/Tezsure/tezster_dart/issues?q=is%3Aissue+is%3Aopen+)
