@@ -1,4 +1,6 @@
-# tezster_dart
+# tezster_dart_web
+
+This gives web support to [tezster_dart_web](https://github.com/Tezsure/tezster_dart).
 
 [![Star on GitHub](https://img.shields.io/github/stars/Tezsure/tezster_dart?style=flat&logo=github&colorB=green&label=stars)](https://github.com/Tezsure/tezster_dart)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
@@ -30,7 +32,7 @@ Tezos is a decentralized blockchain that governs itself by establishing a true d
   
 ### Getting started
 
-Check out the [example](https://github.com/Tezsure/tezster_dart/tree/master/example) directory for a sample app for using Tezster_dart.
+Check out the [example](https://github.com/Tezsure/tezster_dart/tree/master/example) directory for a sample app for using Tezster_dart_web.
 
 ### Import using
 
